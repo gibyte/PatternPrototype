@@ -5,7 +5,7 @@
     // У класса есть свойство Species, которое определяет вид животного.
     // Метод Clone() возвращает новый объект того же класса Animal с тем же значением свойства Species.
     // Реализация метода Clone() интерфейса ICloneable делегирует вызов к уже существующему методу Clone() данного класса.
-    class Animal : IMyCloneable<Animal>, ICloneable
+    public class Animal : IMyCloneable<Animal>, ICloneable
     {
         public string Species { get; set; }
 
